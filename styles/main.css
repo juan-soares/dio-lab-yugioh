@@ -1,5 +1,13 @@
 body {
-  cursor: url("../assets/cursor/yugicursor.png");
+  cursor: url("../assets/cursor/yugicursor.png"), default;
+}
+
+button,
+a,
+img:hover,
+button:hover,
+a:hover {
+  cursor: url("../assets/cursor/yugicursor.png"), default;
 }
 
 .bg-video {
